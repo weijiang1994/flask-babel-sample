@@ -1,0 +1,63 @@
+# Translations template for PROJECT.
+# Copyright (C) 2022 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2022-02-27 20:36+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: app/templates/index.html:10
+msgid "Factory mode use Flask-Babel"
+msgstr ""
+
+#: app/templates/index.html:12
+msgid "Blueprint Sample"
+msgstr ""
+
+#: app/templates/index.html:14
+msgid "Template Sample"
+msgstr ""
+
+#: app/templates/index.html:15
+msgid ""
+"I have a dream that one day this nation will rise up and live out the "
+"true meaning of its creed: 'We hold these truths to be self-evident, that"
+" all men are created equal."
+msgstr ""
+
+#: app/templates/index.html:16
+msgid ""
+"I have a dream that one day on the red hills of Georgia, the sons of "
+"former slaves and the sons of former slave owners will be able to sit "
+"down together at the table of brotherhood."
+msgstr ""
+
+#: app/templates/index.html:17
+msgid ""
+"I have a dream that one day even the state of Mississippi, a state "
+"sweltering with the heat of injustice, sweltering with the heat of "
+"oppression, will be transformed into an oasis of freedom and justice."
+msgstr ""
+
+#: app/templates/index.html:18
+msgid ""
+"I have a dream that my four little children will one day live in a nation"
+" where they will not be judged by the color of their skin but by the "
+"content of their character."
+msgstr ""
+
+#: app/views/index.py:17
+msgid "This is a flask-babel sample application"
+msgstr ""
+

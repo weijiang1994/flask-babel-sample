@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Flask Babel Sample </title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='index.css') }}">
+</head>
+<body>
+<div class="container">
+    <h3>{{ _("Factory mode use Flask-Babel") }}</h3>
+    <hr>
+    <p>1.{{ _('Blueprint Sample') }}</p>
+    <p>{{ content }}</p>
+    <p>2.{{ _('Template Sample') }}</p>
+    <p>{{ _("I have a dream that one day this nation will rise up and live out the true meaning of its creed: 'We hold these truths to be self-evident, that all men are created equal.") }}</p>
+    <p>{{ _("I have a dream that one day on the red hills of Georgia, the sons of former slaves and the sons of former slave owners will be able to sit down together at the table of brotherhood.") }}</p>
+    <p>{{ _("I have a dream that one day even the state of Mississippi, a state sweltering with the heat of injustice, sweltering with the heat of oppression, will be transformed into an oasis of freedom and justice.") }}</p>
+    <p>{{ _("I have a dream that my four little children will one day live in a nation where they will not be judged by the color of their skin but by the content of their character.") }}</p>
+    <button class="btn zh"><a class="link" href="{{ url_for('index.set_locale', language='zh') }}">中文</a></button>
+    <button class="btn en"><a class="link" href="{{ url_for('index.set_locale', language='en') }}">English</a></button>
+</div>
+</body>
+</html>
